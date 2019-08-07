@@ -1,0 +1,52 @@
+Task 1:
+
+1. mkdir dir1
+2. cd dir1 --> pwd dir1
+3. mkdir dir1
+4. cd dir2 --> touch boo
+5. mv boo wibble
+6. cd .. --> touch a.txt b.txt c.txt
+7. tar -cvf "filename".tar *.txt (or a.txt b.txt c.txt)
+8.cd.. --> rm -r dir1
+9. done
+10. javac MyTest.java
+11. *in text editor* :
+	all:
+		javac MyTest.java
+		java MyTest
+
+	clean:
+		rm MyTest.class
+
+12. make
+13. (it's the clean thing from above)
+14. see previous 
+
+
+Task 2:
+
+1. touch mytest
+2. ls -l
+3. chmod a-rwx mytest --> chmod u+rwx mytest
+4. chmod g+r mytest
+5. chmod a+r mytest --> chmod a-w
+6. rm mytest
+7. mkdir test1 --> cd.. --> mkdir test2
+8. cd .. --> cd.. --> chmod -R a+rw mytest
+
+Task 3:
+
+1. Ctrl+Alt+Tab
+2. vim
+3. press: shift+: then type Ctrl+Z
+4. fg vim --> press: shift+: then type q
+5. vim& --> jobs --> kill - 9 (vim memory address)
+6. ps OR ps -aux
+7. ps - u > peopledoing.txt
+8. find iostream /usr/include  |wc -l
+
+
+
+
+
+
