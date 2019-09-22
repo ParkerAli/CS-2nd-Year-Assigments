@@ -1,4 +1,4 @@
-The Kilojoule Counter app is an android application developed to allow a user to track their Net KJ intake and record the details of these values in diary entries.
+The Kilojoule Counter app is an android application developed using Java to allow a user to track their Net KJ intake and record the details of these values in diary entries.
 App Comprises of three activities described below:
 
 Overview
